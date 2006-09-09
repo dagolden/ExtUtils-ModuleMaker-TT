@@ -1,0 +1,32 @@
+---
+name: ExtUtils-ModuleMaker-TT
+version: 0.93
+author:
+  - 'David A Golden <dagolden@cpan.org>'
+abstract: |-
+  Makes skeleton modules with Template Toolkit
+  templates
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Config::Find: 0.22
+  Config::General: 2.29
+  Data::Dumper: 0
+  ExtUtils::ModuleMaker: 0.46
+  File::Copy: 0
+  File::pushd: 0.32
+  Getopt::Long: 0
+  IPC::Run3: 0.033
+  Path::Class: 0.15
+  Probe::Perl: 0.01
+  Template: 2.14
+  Test::More: 0.45
+provides:
+  ExtUtils::ModuleMaker::TT:
+    file: lib/ExtUtils/ModuleMaker/TT.pm
+    version: 0.93
+generated_by: Module::Build version 0.2801
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
