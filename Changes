@@ -1,6 +1,8 @@
 Revision history for Perl module ExtUtils::ModuleMaker::TT
 
 {{$NEXT}}
+
+0.94      2013-11-06 13:48:39 America/New_York
     - converted to dzil for modern boilerplate and META generation
     - marked as 'unmaintained'
 
