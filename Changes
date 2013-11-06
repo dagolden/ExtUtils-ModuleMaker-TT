@@ -1,5 +1,9 @@
 Revision history for Perl module ExtUtils::ModuleMaker::TT
 
+{{$NEXT}}
+    - converted to dzil for modern boilerplate and META generation
+    - marked as 'unmaintained'
+
 0.93 Sun Jul 16 09:22:55 EDT 2006
     - removed dependency on ExtUtils::ModuleMaker::Utility, as that 
       file went away in EU::MM 0.46
